@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.header {
+    height: 200px;
+    background: #3498db;
+}
+
+.page {
+    display: flex;
+    flex: 1;
+}
+
+.aside {
+    flex: 1 300px;
+    position: relative;
+    border: 1px solid red;
+}
+
+.menu {
+    display: table;
+    border: 1px solid black;
+    margin: 0;
+}
+
+.content {
+    flex: 1 100%;
+}
+
+.content p {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.footer {
+    height: 1000px;
+    background: #2c3e50;
+}
